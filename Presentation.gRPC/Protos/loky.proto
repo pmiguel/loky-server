@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "Presentation.gRPC";
+
+package Loky;
+
+service LokyService {
+    rpc LockWorkstation(LockRequest) returns (LockReply) {}
+}
+
+message LockRequest {
+    string uniqueIdentifier = 1;
+    int32 delay = 2;
+}
+
+message LockReply {
+    bool lockSuccess = 1;
+}
