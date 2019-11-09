@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loky-Sandbox", "Loky-Sandbox\Loky-Sandbox.csproj", "{A14998E3-D46A-4390-AED7-2F28EE070868}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LockyServer", "LockyServer", "{C6F17414-C109-48D7-B6D0-C46AB1154159}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. SDK", "0. SDK", "{A3C85D6A-31AE-40B4-B698-00B16F9E8454}"
@@ -18,10 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A14998E3-D46A-4390-AED7-2F28EE070868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A14998E3-D46A-4390-AED7-2F28EE070868}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A14998E3-D46A-4390-AED7-2F28EE070868}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A14998E3-D46A-4390-AED7-2F28EE070868}.Release|Any CPU.Build.0 = Release|Any CPU
 		{873CCF40-6587-4E13-8167-A78406EC54E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{873CCF40-6587-4E13-8167-A78406EC54E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{873CCF40-6587-4E13-8167-A78406EC54E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
